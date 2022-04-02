@@ -53,6 +53,16 @@ body {
         line-height: 18.375px;
         margin: 5px;
 }
+.nav-link:hover{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Mulish',
+        sans-serif;
+        text-decoration: none solid rgb(64, 25, 109);
+        color: #40196D;
+        line-height: 18.375px;
+        margin: 5px;
+}
 .navLinkBtn {
     font-size: 14px;
     font-weight: 700;
