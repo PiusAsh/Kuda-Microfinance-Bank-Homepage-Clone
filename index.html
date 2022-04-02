@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuda Clone</title>
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,700;0,900;1,800&display=swap"
+        rel="stylesheet">
+
+        <!-- FONT AWESOME CDN -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+            integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg shadow-sm navbar-white bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand px-5" href="#"><img src="/images/kuda-logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Personal
+                        </a>
+                        <ul class="dropdown-menu fade-up">
+                            <li><a class="dropdown-item" href="#"> Kuda Card</a></li>
+                            <li><a class="dropdown-item" href="#"> Spend </a></li>
+                            <li><a class="dropdown-item" href="#"> Save </a></li>
+                            <li><a class="dropdown-item" href="#"> Budget </a></li>
+                            <li><a class="dropdown-item" href="#"> Borrow</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item active"> <a class="nav-link" href="#">Business <span
+                                class="beta px-2">Beta</span> </a> </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Company </a>
+                        <ul class="dropdown-menu fade-up">
+                            <li><a class="dropdown-item" href="#"> Blog</a></li>
+                            <li><a class="dropdown-item" href="#"> Press</a></li>
+                            <li><a class="dropdown-item" href="#"> Join Our Team </a></li>
+                            <li><a class="dropdown-item" href="#"> About Us </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Help </a>
+                        <ul class="dropdown-menu fade-up">
+                            <li><a class="dropdown-item" href="#"> Get Help</a></li>
+                            <li><a class="dropdown-item" href="#"> FAQs</a></li>
+                            <li><a class="dropdown-item" href="#"> Security</a></li>
+                            <li><a class="dropdown-item" href="#"> Contact Us </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#"> Sign in </a></li>
+                    <!-- <a class="nav-link" href="http://">Apply</a> -->
+                    <li class="nav-item applyBtn"><a class="nav-link btn-lg navLinkBtn" href="#"> Apply </a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> <img class="ngImg" src="/images/NG-logo.png" alt=""> </a>
+                        <ul class="dropdown-menu dropdown-menu-end fade-down">
+                            <li><a class="dropdown-item" href="#"> <img class="countryImg" src="/images/NG-logo.png" alt="Ng logo"> <span class="countryName">Nigeria</span> </a></li>
+                            <li><a class="dropdown-item" href="#"> <img class="countryImg" src="/images/united-kingdom.png" alt="Uk logo"> <span class="countryName">United Kingdom</span> </a></li>
+                            <li><a class="dropdown-item" href="#"> <img class="countryImg" src="/images/ghana.png" alt="Ghana logo"> <span class="countryName"> Ghana</span> <span class="comingSoon">Coming Soon</span> </a></li>
+                            <li><a class="dropdown-item" href="#"> <img class="countryImg" src="/images/uganda.png" alt="Uganda logo"> <span class="countryName"> Uganda</span> <span class="comingSoon">Coming Soon</span> </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 py-5">
+                    <h1 class="headText">We're the bank of <br> the free</h1>
+                    <p class="des py-3">We’re here to help you get the best out of your <br> money, no strings attached.
+                        <br>
+                        Welcome to your freedom!</p>
+                    <img class="cbnImg" src="/images/cbn.PNG" alt="kuda cbn"> <br>
+                    <button class="getKuda">Get Kuda</button>
+
+                </div>
+                <div class="col-lg-6">
+                    <img src="/images/kuda-hero.png" alt="hero image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF HERO SECTION -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
