@@ -63,6 +63,16 @@ body {
         line-height: 18.375px;
         margin: 5px;
 }
+.footerHead1 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Mulish',
+        sans-serif;
+        text-decoration: none solid rgb(64, 25, 109);
+        color: #40196D;
+        text-align: left;
+        
+}
 .nav-link:hover{
     font-size: 14px;
     font-weight: 700;
@@ -136,7 +146,7 @@ body {
 .FText{
     font-size: 14px;
     font-weight: 400;
-    color: #000;
+    color: #979797;
     font-family: 'Mulish',
     sans-serif;
 text-align: left;
@@ -271,6 +281,33 @@ text-align: left;
     font-size: 13px;
     color: #000;
     text-decoration: none;
+}
+.tFoot1{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+.adDress{
+    text-align: left;
+    font-size: 13px;
+}
+.coloured{
+    background-color: #EFF1FF;
+    width: 1100px;
+}
+.headText1 {
+    font-size: 31.5px;
+    font-weight: 900;
+    font-family: 'Mulish',
+        sans-serif;
+    color: #40196D;
+    width: max-content;
+
+}
+
+.imagehero{
+    margin-top: 60px;
+    width: 400px;
 }
 
 
